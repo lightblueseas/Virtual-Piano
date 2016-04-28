@@ -1,6 +1,5 @@
 package main;
 
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Rectangle;
@@ -11,10 +10,8 @@ import javax.swing.JPanel;
 
 import main.thread.TimedEvent;
 import main.thread.TimerThread;
-import main.util.NullImageObserver;
 import resource.AnimationConstant;
 import resource.LayoutConstant;
-import util.Utilities;
 
 /**
  * Encapsulates the canvas in the main frame, where animations and background
@@ -30,6 +27,7 @@ import util.Utilities;
  */
 public class Canvas extends JPanel {
 	
+	private static final long serialVersionUID = 1L;
 	private BackgroundMusic backgroundMusic;
 	private BackgroundImage backgroundImage;
 	private Animation animation;

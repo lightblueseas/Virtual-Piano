@@ -26,6 +26,7 @@ import resource.LayoutConstant;
  */
 public class Piano extends JPanel {
 
+	private static final long serialVersionUID = 1L;
 	private static final int NUM_OCTAVES = 3;
 	private static final int NUM_KEYS = MusicalNote.OCTAVE_PITCH_DELTA * Piano.NUM_OCTAVES + 1;
 	private static final int NUM_KEYS_PER_OCTAVE = 12;
@@ -249,28 +250,6 @@ public class Piano extends JPanel {
 		g.drawString("C" + getBasePitch() / 12,
 				LayoutConstant.octaveNumberLeft,
 				LayoutConstant.keyFrameHeight + LayoutConstant.instrumentNumberPadding);
-	}
-	
-	/**
-	 * Paints only the given PianoKey and its neighboring keys.
-	 * Currently unused.
-	 * @param g
-	 * @param pianoKey
-	 */
-	private void paintKey(Graphics g, PianoKey pianoKey) {
-		// if the specified key is chromatic, draw neighbors first
-		// otherwise, draw the specified key first
-		
-		// nothing
-	}
-
-	/**
-	 * Paints only the pedal area.
-	 * Currently unused.
-	 * @param g
-	 */
-	private void paintPedal(Graphics g) {
-		// nothing
 	}
 	
 	/**

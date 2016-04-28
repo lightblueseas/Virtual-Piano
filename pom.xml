@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>de.alpharogroup</groupId>
+		<artifactId>mvn-java-parent</artifactId>
+		<version>2.8.0</version>
+		<relativePath></relativePath>
+	</parent>
+
+	<artifactId>Virtual-Piano</artifactId>
+	<version>1.0.0</version>
+	
+	
+	<name>Virtual-Piano</name>
+
+	<description>
+		Play piano (or any instrument) using your computer keyboard in a positionally-natural manner! 
+		
+		Play any of the 128 provided MIDI instruments! Simulate sustain pedal! (by holding space bar)
+
+		This program is running in Java Virtual Machine, using Java MIDI library.
+	</description>
+
+	<url>https://github.com/lightblueseas/Virtual-Piano</url>
+
+	<scm>
+		<connection>scm:git:git:@github.com:lightblueseas/Virtual-Piano.git</connection>
+		<developerConnection>scm:git:git@github.com:lightblueseas/Virtual-Piano.git</developerConnection>
+		<url>git:@github.com:lightblueseas/Virtual-Piano.git</url>
+	</scm>
+
+	<ciManagement>
+		<system>travis-ci</system>
+		<url>https://travis-ci.org/lightblueseas/Virtual-Piano</url>
+	</ciManagement>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/lightblueseas/Virtual-Piano/issues</url>
+	</issueManagement>	
+	
+	<build>
+	
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>main.VirtualPiano</mainClass>
+							<packageName>main</packageName>
+						</manifest>
+						<manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
+					</archive>
+				</configuration>
+			</plugin>
+
+		</plugins>
+		
+	</build>
+	
+</project>

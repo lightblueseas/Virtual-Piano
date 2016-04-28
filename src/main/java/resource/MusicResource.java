@@ -1,7 +1,5 @@
 package resource;
 
-import java.awt.Image;
-import java.io.File;
 import java.io.IOException;
 
 import javax.sound.midi.InvalidMidiDataException;
@@ -9,7 +7,6 @@ import javax.sound.midi.MidiSystem;
 import javax.sound.midi.Sequence;
 
 import music.MusicManager;
-
 import util.ErrorHandler;
 import util.Utilities;
 

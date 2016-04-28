@@ -1,12 +1,5 @@
 package main.thread;
 
-import java.lang.reflect.InvocationTargetException;
-
-import javax.swing.SwingUtilities;
-
-import util.ErrorHandler;
-import util.Utilities;
-
 /**
  * Encapsulates an event and a duration in millisecond, which is the number
  * of millisecond to wait before the event is executed.

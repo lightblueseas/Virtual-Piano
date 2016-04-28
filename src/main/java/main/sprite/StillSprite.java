@@ -1,7 +1,6 @@
 package main.sprite;
 
 import resource.ImageResource;
-import util.Utilities;
 
 /**
  * Encapsulates a Sprite that does not animate or move, but just displays.

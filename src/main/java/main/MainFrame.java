@@ -5,11 +5,9 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import main.util.CustomGridBagConstraints;
-import resource.LayoutConstant;
 
 
 /**
@@ -20,7 +18,7 @@ import resource.LayoutConstant;
  */
 public class MainFrame extends JFrame {
 	
-	private Canvas canvas;
+	private static final long serialVersionUID = 1L;
 	private Piano piano;
 	
 	/**

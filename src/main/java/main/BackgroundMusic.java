@@ -1,6 +1,5 @@
 package main;
 
-import music.MusicManager;
 import resource.MusicResource;
 
 /**

@@ -18,7 +18,6 @@ import main.thread.TimerThread;
 import resource.AnimationConstant;
 import resource.ImageResource;
 import resource.LayoutConstant;
-import util.Utilities;
 
 /**
  * Encapsulates various sprites that can animate.  Contains methods pertaining

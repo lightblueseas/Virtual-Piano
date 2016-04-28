@@ -1,10 +1,8 @@
 package main;
 
-import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 
 import music.MusicManager;
-
 import resource.ImageResource;
 import resource.MusicResource;
 

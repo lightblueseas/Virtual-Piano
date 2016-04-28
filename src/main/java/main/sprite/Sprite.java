@@ -7,7 +7,6 @@ import java.awt.image.FilteredImageSource;
 import java.awt.image.ImageObserver;
 import java.awt.image.RGBImageFilter;
 
-import main.util.NullImageObserver;
 import resource.ImageResource;
 
 /**

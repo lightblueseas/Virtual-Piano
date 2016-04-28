@@ -16,6 +16,8 @@ import java.awt.Insets;
  */
 public class CustomGridBagConstraints extends GridBagConstraints {
 
+	private static final long serialVersionUID = 1L;
+
 	public CustomGridBagConstraints() {
 		super();
 	}
