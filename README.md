@@ -9,19 +9,7 @@ This program is running in Java Virtual Machine, using Java MIDI library.
 
 How to run
 ----------
-Don't worry, you're not required to compile code :)
-
-Simply save this file from the source tree, and run:  `out/VirtualPiano.jar`
-
-You must have java runtime in your machine (most computers these days already have it).
-Usually double-clicking the .jar file is sufficient to launch it.
-
-In the rare case that launching it directly doesn't work, you may need to launch with command line.
-e.g. do
-
-<pre>
-java -jar "<path to the file>/VirtualPiano.jar" &
-</pre>
+Run the class main.VirtualPiano.java
 
 
 Keyboard use
